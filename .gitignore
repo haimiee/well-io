@@ -1,4 +1,15 @@
-.nicegui/
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore SQLite database files
 db.sqlite
 db.sqlite-shm
 db.sqlite-wal
+
+# Ignore NiceGUI runtime folder
+.nicegui/
+
+# Ignore editor or system files
+*.log
+.DS_Store
